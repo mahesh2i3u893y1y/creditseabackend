@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cookieParser())
  
 
-app.use(cors({ origin: "https://beamish-eclair-50081c.netlify.app", credentials: true }));
+app.use(cors({ origin: "https://genuine-haupia-ff32d4.netlify.app/", credentials: true }));
 
 app.use("/",authRouter)
 app.use("/",loanRouter)

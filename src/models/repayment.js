@@ -13,4 +13,4 @@ const Repayment = mongoose.model('Repayment', repaymentSchema)
 
 module.exports = {Repayment}
 
-// module.exports = mongoose.model('Repayment', repaymentSchema);
+
